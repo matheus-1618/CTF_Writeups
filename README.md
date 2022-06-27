@@ -1,2 +1,4 @@
 # CTF_Writeups
-Small repository for some writeups ou solutions to cybersecurity problems
+Small repository for some writeups or solutions to cybersecurity problems.
+
+

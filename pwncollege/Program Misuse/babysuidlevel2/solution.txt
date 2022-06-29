@@ -1,0 +1,21 @@
+First, lets go the challenge directory:
+# cd ../../challenge 
+Run the /babysuid_level2, for obtain the
+suid level, and for get some hints for the problem:
+# ./babysuid_level2
+    Welcome to ./babysuid_level2!
+
+    This challenge is part of a series of programs that
+    exposes you to very simple programs that let you directly read the flag.
+
+    I just set the SUID bit on /usr/bin/more.
+    Try to use it to read the flag!
+
+    IMPORTANT: make sure to run me (./babysuid_level2) every time that you restart
+    this challenge container to make sure that I set the SUID bit on /usr/bin/more!
+
+    After this, just go backwards and use cat on flag file
+
+# cd ..
+# more flag
+    pwn.college{Y4bhfrjLho8JuSwVndXsYJMkukC.QX0QTMsYjN3MzW}

